@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
@@ -101,7 +101,7 @@ export default function LandingPage() {
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-black">How It Works</h2>
                   <p className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    Our platform leverages the power of Solana blockchain to revolutionize real estate investment. Here's how:
+                    Our platform leverages the power of Solana blockchain to revolutionize real estate investment. Here&apos;s how:
                   </p>
                 </div>
                 <ul className="grid gap-2 py-4 text-gray-600">

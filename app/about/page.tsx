@@ -34,7 +34,7 @@ export default function AboutPage() {
                             About TokenEstate
                         </h1>
                         <p className="max-w-[700px] text-gray-600 md:text-xl mb-12">
-                            TokenEstate is revolutionizing real estate investment through blockchain technology. Our platform leverages Solana's blockchain to tokenize properties, enabling fractional ownership and democratizing access to real estate markets.
+                            TokenEstate is revolutionizing real estate investment through blockchain technology. Our platform leverages Solana&apos;s blockchain to tokenize properties, enabling fractional ownership and democratizing access to real estate markets.
                         </p>
                         <Button asChild className=" text-white hover:bg-gray-800">
                             <Link href="/">Back to Home</Link>
@@ -55,7 +55,7 @@ export default function AboutPage() {
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-black">Key Features</h2>
                         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                             {[
-                                { title: "Property Tokenization", icon: Coins, description: ["Divide properties into smaller fractional tokens", "Create fungible or non-fungible assets on Solana's blockchain"] },
+                                { title: "Property Tokenization", icon: Coins, description: ["Divide properties into smaller fractional tokens", "Create fungible or non-fungible assets on Solanas blockchain"] },
                                 { title: "Micro-Investment Opportunities", icon: Users, description: ["Invest with as little as $10 worth of Solana tokens", "Democratically accessible for small investors"] },
                                 { title: "Transparent Transactions", icon: LineChart, description: ["Smart contracts manage token sales, purchases, and transfers", "All transactions recorded on the blockchain for security"] },
                                 { title: "Rental Income Distribution", icon: Banknote, description: ["Proportional distribution to token holders via smart contracts", "Real-time updates on rental earnings"] },
@@ -130,7 +130,7 @@ export default function AboutPage() {
                     <div className="container px-4 md:px-6 text-center">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-[90px] md:pb-4 mb-8 text-black">Get in Touch</h2>
                         <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl mb-12">
-                            Have questions about TokenEstate or want to learn more about how you can get involved? We'd love to hear from you.
+                            Have questions about TokenEstate or want to learn more about how you can get involved? We&apos;d love to hear from you.
                         </p>
                         <Button asChild size="lg" className=" text-white hover:bg-gray-800">
                             <Link href="mailto:contact@tokenestate.com">Contact Us</Link>

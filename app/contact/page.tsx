@@ -61,7 +61,7 @@ export default function ContactPage() {
                             Contact Us
                         </h1>
                         <p className="max-w-[700px] text-gray-600 md:text-xl mb-12">
-                            Have questions about TokenEstate or want to learn more? We're here to help. Reach out to us using the form below or through our contact information.
+                            Have questions about TokenEstate or want to learn more? We&apos;re here to help. Reach out to us using the form below or through our contact information.
                         </p>
                     </div>
                     <div className="absolute inset-0 z-0">
@@ -135,7 +135,7 @@ export default function ContactPage() {
                                         className="border-gray-300 focus:border-gray-500 focus:ring-gray-500"
                                     />
                                 </div>
-                                <Button type="submit" className="w-full text-gray-900 text-white hover:bg-gray-800">Send Message</Button>
+                                <Button type="submit" className="w-full text-white hover:bg-gray-800">Send Message</Button>
                             </form>
                         </div>
                     </div>
