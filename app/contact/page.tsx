@@ -57,7 +57,7 @@ export default function ContactPage() {
             <main className="flex-1">
                 <section className="w-full py-12 md:py-24 lg:py-32 relative">
                     <div className="container px-4 md:px-6 relative z-10">
-                        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none mb-8 text-black">
+                        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-[90px] mb-8 text-black">
                             Contact Us
                         </h1>
                         <p className="max-w-[700px] text-gray-600 md:text-xl mb-12">

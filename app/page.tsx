@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Building2, Coins, LineChart, Lock, Users } from 'lucide-react'
 
+
 export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen bg-white">
@@ -46,13 +47,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="absolute inset-0 z-0">
-            <Image
-              src="/3d-city.png"
-              alt="3D City Landscape"
-              layout="fill"
-              objectFit="cover"
-              className="opacity-10"
-            />
+
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 relative">
@@ -67,7 +62,7 @@ export default function LandingPage() {
                 { title: "Secondary Market", icon: LineChart, description: "Trade property tokens on our built-in marketplace, providing liquidity to your investments." },
                 { title: "KYC and Compliance", icon: Lock, description: "Built-in KYC and AML tools ensure regulatory compliance across jurisdictions." },
               ].map((feature, index) => (
-                <Card key={index} className="bg-white border-gray-100">
+                <Card key={index} className="bg-white border-gray-100 shadow-lg hover:shadow-xl hover:scale-105 duration-300 cursor-pointer">
                   <CardHeader>
                     <feature.icon className="h-6 w-6 mb-2 text-black" />
                     <CardTitle className="text-black">{feature.title}</CardTitle>
@@ -80,25 +75,28 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="absolute inset-0 z-0">
-            <Image
+            {/* <Image
               src="/solana-3d.png"
               alt="Solana 3D Logo"
               layout="fill"
               objectFit="cover"
               className="opacity-5"
-            />
+            /> */}
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
-              <Image
-                src="/3d-tokenized-building.png"
+              <video
                 width={550}
                 height={550}
-                alt="Tokenized Real Estate"
+                autoPlay
+                muted loop
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
-              />
+              >
+                <source src="/assets/vid.mp4" type="video/mp4" />
+              </video>
+              
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-black">How It Works</h2>
@@ -135,6 +133,8 @@ export default function LandingPage() {
           </div>
         </section>
       </main>
+
+
       <footer className="w-full py-6 bg-gray-50">
         <div className="container flex flex-col gap-2 sm:flex-row items-center px-4 md:px-6">
           <p className="text-xs text-gray-600">© 2024 TokenEstate. All rights reserved.</p>

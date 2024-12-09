@@ -36,7 +36,7 @@ export default function AboutPage() {
                         <p className="max-w-[700px] text-gray-600 md:text-xl mb-12">
                             TokenEstate is revolutionizing real estate investment through blockchain technology. Our platform leverages Solana's blockchain to tokenize properties, enabling fractional ownership and democratizing access to real estate markets.
                         </p>
-                        <Button asChild className="text-gray-900 text-white hover:bg-gray-800">
+                        <Button asChild className=" text-white hover:bg-gray-800">
                             <Link href="/">Back to Home</Link>
                         </Button>
                     </div>
@@ -128,11 +128,11 @@ export default function AboutPage() {
                 </section>
                 <section id="contact" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50">
                     <div className="container px-4 md:px-6 text-center">
-                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-black">Get in Touch</h2>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-[90px] md:pb-4 mb-8 text-black">Get in Touch</h2>
                         <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl mb-12">
                             Have questions about TokenEstate or want to learn more about how you can get involved? We'd love to hear from you.
                         </p>
-                        <Button asChild size="lg" className="text-gray-900 text-white hover:bg-gray-800">
+                        <Button asChild size="lg" className=" text-white hover:bg-gray-800">
                             <Link href="mailto:contact@tokenestate.com">Contact Us</Link>
                         </Button>
                     </div>
