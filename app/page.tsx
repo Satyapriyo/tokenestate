@@ -1,11 +1,16 @@
 
+"use client";
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Building2, Coins, LineChart, Lock, Users } from 'lucide-react'
 
 
+
+
 export default function LandingPage() {
+
+
   return (
     <div className="flex flex-col min-h-screen bg-white">
       <header className="px-4 lg:px-6 h-14 flex items-center border-b">
@@ -52,7 +57,7 @@ export default function LandingPage() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 relative">
           <div className="container px-4 md:px-6 relative z-10">
-            <h2 className="text-[100px] font-bold tracking-tighter sm:text-5xl text-center mb-12 text-black">Key Features</h2>
+            <h2 className="sm:text-4xl text-3xl lg:text-[60px] font-bold tracking-tighter text-center mb-12 md:mb-20 text-black">Key Features</h2>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {[
                 { title: "Property Tokenization", icon: Coins, description: "Convert real estate into digital tokens on Solana, enabling fractional ownership and easy trading." },
@@ -91,15 +96,15 @@ export default function LandingPage() {
                 width={550}
                 height={550}
                 autoPlay
-                muted loop
+                loop
+                controls
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
               >
                 <source src="/assets/vid.mp4" type="video/mp4" />
               </video>
-              
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
-                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-black">How It Works</h2>
+                  <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl lg:text-[50px] text-black">How It Works</h2>
                   <p className="max-w-[600px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                     Our platform leverages the power of Solana blockchain to revolutionize real estate investment. Here&apos;s how:
                   </p>
