@@ -48,6 +48,7 @@ export default function AboutPage() {
                             objectFit="cover"
                             className="opacity-10"
                         />
+                        
                     </div>
                 </section>
                 <section id="features" className="w-full py-12 md:py-24 lg:py-32 bg-gray-50 relative">
